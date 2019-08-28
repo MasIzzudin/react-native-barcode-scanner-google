@@ -1,18 +1,18 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
 }
 
 dependencies {
-    compile 'com.google.android.gms:play-services-vision:8.4.0' // 8.1.0 or higher required
-    compile 'com.facebook.react:react-native:0.20.+'
+    implementation 'com.google.android.gms:play-services-vision:8.4.0' // 8.1.0 or higher required
+    implementation 'com.facebook.react:react-native:0.20.+'
 }
